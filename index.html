@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div>
+      <form>
+        <h2 id="text"></h2>
+        <input id="input" type="text" placeholder="Guess..." maxlength="1" />
+        <button id="submitBtn" type="submit">Try</button>
+        <p id="turnCount"></p>
+        <p style="color:red" id="mistakes"></p>
+      </form>
+    </div>
+    <div>
+      <pre id="hangImage"></pre>
+    </div>
+  </div>
+  <h1 id="loose" class="invisible"></h1>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
